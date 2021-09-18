@@ -1,0 +1,115 @@
+{
+  "name": "@virtualcollector/design-system",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VirtualCollector/design-system.git"
+  },
+  "keywords": [
+    "VirtualCollector",
+    "next.js",
+    "react",
+    "stitches"
+  ],
+  "author": "VirtualCollector (https://www.VirtualCollector.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VirtualCollector/design-system/issues"
+  },
+  "homepage": "https://github.com/VirtualCollector/design-system#readme",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "prepare": "npx husky install",
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "ds:build": "rollup -c",
+    "ds:release": "yarn ds:build && np"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "next": "^11.1.2"
+  },
+  "dependencies": {
+    "@modulz/radix-icons": "^4.0.0",
+    "@radix-ui/colors": "0.1.7",
+    "@radix-ui/react-accordion": "0.1.0",
+    "@radix-ui/react-alert-dialog": "0.1.0",
+    "@radix-ui/react-aspect-ratio": "^0.1.0",
+    "@radix-ui/react-avatar": "0.1.0",
+    "@radix-ui/react-checkbox": "0.1.0",
+    "@radix-ui/react-context-menu": "0.1.0",
+    "@radix-ui/react-dialog": "0.1.0",
+    "@radix-ui/react-dropdown-menu": "0.1.0",
+    "@radix-ui/react-icons": "^1.0.3",
+    "@radix-ui/react-id": "^0.1.0",
+    "@radix-ui/react-menu": "0.1.0",
+    "@radix-ui/react-popover": "0.1.0",
+    "@radix-ui/react-portal": "0.1.0",
+    "@radix-ui/react-progress": "0.1.0",
+    "@radix-ui/react-radio-group": "0.1.0",
+    "@radix-ui/react-separator": "0.1.0",
+    "@radix-ui/react-slider": "0.1.0",
+    "@radix-ui/react-switch": "0.1.0",
+    "@radix-ui/react-tabs": "0.1.0",
+    "@radix-ui/react-toggle": "0.1.0",
+    "@radix-ui/react-tooltip": "0.1.0",
+    "@radix-ui/react-use-layout-effect": "^0.1.0",
+    "@stitches/react": "1.0.0-canary.19",
+    "copy-to-clipboard": "^3.3.1",
+    "hast-util-to-html": "^7.1.2",
+    "hast-util-to-string": "^1.0.4",
+    "lodash.debounce": "^4.0.8",
+    "lodash.merge": "^4.6.2",
+    "next-themes": "^0.0.15",
+    "parse-numeric-range": "^1.3.0",
+    "reading-time": "1.3.0",
+    "refractor": "^4.1.1",
+    "rehype": "^11.0.0",
+    "rehype-parse": "^7.0.1",
+    "seamless-scroll-polyfill": "^2.1.2",
+    "unified": "^9.2.1",
+    "unist-util-visit": "^2.0.3"
+  },
+  "devDependencies": {
+    "@next/mdx": "10.2.3",
+    "@types/bezier-easing": "^2.1.2",
+    "@types/chroma-js": "^2.1.3",
+    "@types/lodash.merge": "^4.6.6",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "bezier-easing": "^2.1.0",
+    "chroma-js": "^2.1.1",
+    "husky": "^7.0.2",
+    "husky-run": "^0.0.0",
+    "lint-staged": ">=10",
+    "next": "^11.1.2",
+    "np": "^7.5.0",
+    "prettier": "^2.1.2",
+    "react": "17.0.2",
+    "react-bezier-curve-editor": "^1.0.0",
+    "react-dom": "17.0.2",
+    "rollup": "^2.33.1",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.4.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}

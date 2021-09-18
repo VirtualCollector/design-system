@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "@primitives/*": ["primitives/*"],
+      "@custom/*": ["custom/*"],
+      "@marketing/*": ["marketing/*"],
+      "@lib/*": ["lib/*"],
+      "@data/*": ["data/*"],
+      "@docs/*": ["docs/*"]
+    },
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es5",
+    "noImplicitAny": false,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "isolatedModules": true
+  },
+  "exclude": ["node_modules", "pages"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+}
