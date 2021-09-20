@@ -118,6 +118,9 @@ import {
   VideoIcon,
   RocketIcon,
 } from '@radix-ui/react-icons';
+
+import { VirtualCollectorLogo } from '../primitives/VirtualCollectorLogo';
+
 import { Toolbar } from '../custom/Toolbar';
 import { DarkThemeButton } from '../custom/DarkThemeButton';
 
@@ -415,8 +418,13 @@ function Home() {
       <Box css={{ bc: '$loContrast', height: '100%' }}>
         <Section size="3">
           <Container size="2">
+            <Flex css={{ jc: 'center', my: '$5' }}>
+              <Text color="white">
+                <VirtualCollectorLogo />
+              </Text>
+            </Flex>
             <Heading size="4" css={{ ta: 'center', mb: '$3' }}>
-              VirtualCollector UI test suite
+              UI test suite
             </Heading>
             <Paragraph size="2" css={{ ta: 'center' }}>
               An environment for testing VirtualCollector DS.
