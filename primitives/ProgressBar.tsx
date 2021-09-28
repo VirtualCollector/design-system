@@ -51,6 +51,12 @@ const StyledProgressBar = styled(ProgressPrimitive.Root, {
       blue: {
         backgroundColor: '$blue9',
       },
+      violet: {
+        backgroundColor: '$violet9',
+      },
+      purple: {
+        backgroundColor: '$purple9',
+      },
       gradient: {
         backgroundImage:
           'linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)',

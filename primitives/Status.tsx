@@ -22,6 +22,12 @@ export const Status = styled('div', {
       blue: {
         backgroundColor: '$blue9',
       },
+      violet: {
+        backgroundColor: '$violet9',
+      },
+      purple: {
+        backgroundColor: '$purple9',
+      },
       green: {
         backgroundColor: '$green9',
       },

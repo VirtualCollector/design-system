@@ -27,7 +27,7 @@ export const itemCss = css(baseItemCss, {
 
   '&:focus': {
     outline: 'none',
-    backgroundColor: '$blue9',
+    backgroundColor: '$violet9',
     color: 'white',
   },
 

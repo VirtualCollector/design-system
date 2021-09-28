@@ -27,18 +27,25 @@ export const Link = styled('a', {
   },
   variants: {
     variant: {
-      zeus: {
-        color: '$zeus',
-        textDecorationColor: '$zeus',
-        '&:focus': {
-          outlineColor: '$blue8',
-        },
-      },
       blue: {
         color: '$blue11',
         textDecorationColor: '$blue4',
         '&:focus': {
           outlineColor: '$blue8',
+        },
+      },
+      purple: {
+        color: '$purple11',
+        textDecorationColor: '$purple4',
+        '&:focus': {
+          outlineColor: '$purple8',
+        },
+      },
+      violet: {
+        color: '$violet11',
+        textDecorationColor: '$violet4',
+        '&:focus': {
+          outlineColor: '$violet8',
         },
       },
       subtle: {
