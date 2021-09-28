@@ -1,25 +1,25 @@
 {
   "name": "@virtualcollector/design-system",
-  "version": "0.0.1",
+  "version": "0.0.13",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VirtualCollector/design-system.git"
+    "url": "git+https://github.com/virtualcollector/design-system.git"
   },
   "keywords": [
-    "VirtualCollector",
+    "virtual collector",
     "next.js",
     "react",
     "stitches"
   ],
-  "author": "VirtualCollector (https://www.VirtualCollector.com)",
+  "author": "Virtual Collector (https://virtualcollector.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VirtualCollector/design-system/issues"
+    "url": "https://github.com/virtualcollector/design-system/issues"
   },
-  "homepage": "https://github.com/VirtualCollector/design-system#readme",
+  "homepage": "https://github.com/virtualcollector/design-system#readme",
   "files": [
     "dist"
   ],
@@ -34,13 +34,13 @@
     "ds:release": "yarn ds:build && np"
   },
   "peerDependencies": {
+    "next": "^11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "next": "^11.1.2"
+    "react-dom": "17.0.2"
   },
   "dependencies": {
     "@modulz/radix-icons": "^4.0.0",
-    "@radix-ui/colors": "0.1.7",
+    "@radix-ui/colors": "^0.1.7",
     "@radix-ui/react-accordion": "0.1.0",
     "@radix-ui/react-alert-dialog": "0.1.0",
     "@radix-ui/react-aspect-ratio": "^0.1.0",
@@ -65,17 +65,11 @@
     "@radix-ui/react-use-layout-effect": "^0.1.0",
     "@stitches/react": "1.0.0-canary.19",
     "copy-to-clipboard": "^3.3.1",
-    "hast-util-to-html": "^7.1.2",
-    "hast-util-to-string": "^1.0.4",
     "lodash.debounce": "^4.0.8",
     "lodash.merge": "^4.6.2",
     "next-themes": "^0.0.15",
-    "parse-numeric-range": "^1.3.0",
-    "reading-time": "1.3.0",
-    "refractor": "^4.1.1",
-    "rehype": "^11.0.0",
-    "rehype-parse": "^7.0.1",
-    "seamless-scroll-polyfill": "^2.1.2",
+    "parse-numeric-range": "^1.2.0",
+    "react-remove-scroll": "^2.4.1",
     "unified": "^9.2.1",
     "unist-util-visit": "^2.0.3"
   },
