@@ -190,8 +190,8 @@ export const { styled, css, theme, createTheme, getCssText, globalCss, keyframes
         ...blackA,
 
         // Semantic colors
-        hiContrast: '$slate12',
-        // loContrast: '$slate1',
+        hiContrast: '$mauve12',
+        // loContrast: '$mauve1',
         loContrast: 'white',
         canvas: 'hsl(0 0% 93%)',
         panel: 'white',
@@ -474,10 +474,10 @@ export const darkTheme = createTheme('dark-theme', {
     ...goldDarkA,
 
     // Semantic colors
-    hiContrast: '$slate12',
-    loContrast: '$slate1',
+    hiContrast: 'white',
+    loContrast: '$mauve12',
     canvas: 'hsl(0 0% 15%)',
-    panel: '$slate3',
+    panel: '$mauve3',
     transparentPanel: 'hsl(0 100% 100% / 97%)',
     shadowLight: 'hsl(206 22% 7% / 35%)',
     shadowDark: 'hsl(206 22% 7% / 20%)',
