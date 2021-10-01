@@ -30,41 +30,43 @@ import { darkTheme as darkThemeClassName } from '../stitches.config';
 
 const sidebarWidth = 240;
 
-export const loContrasts = ['lime', 'yellow', 'amber', 'sky', 'mint'];
+export const loContrasts = [
+  // 'lime', 'yellow', 'amber', 'sky', 'mint'
+];
 
 export const colors = [
   'gray',
   'mauve',
   'slate',
-  'sage',
-  'olive',
-  'sand',
+  // 'sage',
+  // 'olive',
+  // 'sand',
 
-  'tomato',
-  'red',
-  'crimson',
-  'pink',
-  'plum',
-  'purple',
+  // 'tomato',
+  // 'red',
+  // 'crimson',
+  // 'pink',
+  // 'plum',
+  // 'purple',
   'violet',
-  'indigo',
+  // 'indigo',
 
-  'blue',
-  'cyan',
-  'teal',
-  'green',
-  'grass',
+  // 'blue',
+  // 'cyan',
+  // 'teal',
+  // 'green',
+  // 'grass',
 
-  'brown',
-  'bronze',
-  'gold',
+  // 'brown',
+  // 'bronze',
+  // 'gold',
 
-  'sky',
-  'mint',
-  'lime',
-  'yellow',
-  'amber',
-  'orange',
+  // 'sky',
+  // 'mint',
+  // 'lime',
+  // 'yellow',
+  // 'amber',
+  // 'orange',
 ] as const;
 
 export default function Colors() {
@@ -79,7 +81,7 @@ export default function Colors() {
   const [textBlocks, setTextBlocks] = useLocalStorage('colors-textBlocks', true);
   const [alphaScales, setAlphaScales] = useLocalStorage('colors-alphaScales', false);
 
-  const [darkTheme, setDarkTheme] = useLocalStorage('colors-darkTheme', false);
+  const [darkTheme, setDarkTheme] = useLocalStorage('colors-darkTheme', true);
   const [grayscale, setGrayscale] = useLocalStorage('colors-grayscale', false);
   const [blur, setBlur] = useLocalStorage('colors-blur', false);
   const [gap, setGap] = useLocalStorage('colors-gap', true);

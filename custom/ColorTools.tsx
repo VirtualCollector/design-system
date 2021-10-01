@@ -144,7 +144,7 @@ export function ColorTools() {
             },
           }}
         />
-        <EditableScale
+        {/* <EditableScale
           name="sage"
           lightThemeConfig={{
             start: 'hsl(155 17% 97.6%)',
@@ -368,7 +368,7 @@ export function ColorTools() {
               purple11: 'hsl(275 80% 71%)',
             },
           }}
-        />
+        /> */}
         <EditableScale
           name="violet"
           lightThemeConfig={{
@@ -394,7 +394,7 @@ export function ColorTools() {
             },
           }}
         />
-        <EditableScale
+        {/* <EditableScale
           name="indigo"
           lightThemeConfig={{
             start: 'hsl(226 100% 98.7%)',
@@ -774,7 +774,7 @@ export function ColorTools() {
               orange11: 'hsl(24 100% 62.2%)',
             },
           }}
-        />
+        /> */}
       </Box>
 
       <Text size="1" variant="gray" css={{ p: '$2', my: '$1' }}>
@@ -894,7 +894,7 @@ function EditableScale({ name, lightThemeConfig, darkThemeConfig }: EditableScal
 
         const backdropColor = isDarkTheme
           ? newColors.find((color) => color.name === `${name}1`)?.value ??
-            computedStyles.getPropertyValue(`--colors-${name}1`)
+          computedStyles.getPropertyValue(`--colors-${name}1`)
           : '#ffffff';
 
         const alphaValue =
