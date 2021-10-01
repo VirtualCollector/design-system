@@ -81,6 +81,16 @@ export const TextField = styled('input', {
           fontSize: '$3',
         },
       },
+      '3': {
+        borderRadius: '$3',
+        height: '$7',
+        fontSize: '$5',
+        px: '$4',
+        lineHeight: '$sizes$7',
+        '&:-webkit-autofill::first-line': {
+          fontSize: '$5',
+        },
+      }
     },
     variant: {
       ghost: {
