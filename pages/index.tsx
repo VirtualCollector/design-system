@@ -120,6 +120,7 @@ import {
 } from '@radix-ui/react-icons';
 
 import { VirtualCollectorLogo } from '../primitives/VirtualCollectorLogo';
+import { VirtualCollectorIcon } from '../primitives/VirtualCollectorIcon';
 
 import { Toolbar } from '../custom/Toolbar';
 import { DarkThemeButton } from '../custom/DarkThemeButton';
@@ -419,6 +420,11 @@ function Home() {
         <Section size="3">
           <Container size="2">
             <Flex css={{ jc: 'center', my: '$5' }}>
+              <Box css={{ borderRadius: 8 }}>
+                <Text variant='blue' gradient >
+                  <VirtualCollectorIcon />
+                </Text>
+              </Box>
               <Text color="white">
                 <VirtualCollectorLogo />
               </Text>
@@ -1240,7 +1246,7 @@ function Home() {
             </Flex>
             <Flex css={{ mt: '$6', gap: '$6' }}>
               <Button>Button</Button>
-              <Button variant="zeus">VirtualCollector</Button>
+              <Button variant="violet">VirtualCollector</Button>
               <Button variant="blue">Important</Button>
               <Button variant="green">Secure</Button>
               <Button variant="red">Warning</Button>

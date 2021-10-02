@@ -116,6 +116,7 @@ export { VerifiedBadge } from './primitives/VerifiedBadge';
 export { TitleAndMetaTags } from './primitives/TitleAndMetaTags';
 
 export { VirtualCollectorLogo } from './primitives/VirtualCollectorLogo';
+export { VirtualCollectorIcon } from './primitives/VirtualCollectorIcon';
 export { ThemeToggle } from './primitives/ThemeToggle';
 export { ScrollArea } from './primitives/ScrollArea';
 export { DocsPage } from './primitives/DocsPage';
