@@ -112,6 +112,7 @@ export { TextArea } from './primitives/TextArea';
 export { Tooltip } from './primitives/Tooltip';
 export { TreeItem } from './primitives/TreeItem';
 export { VerifiedBadge } from './primitives/VerifiedBadge';
+export { Spinner } from './primitives/Spinner';
 
 export { TitleAndMetaTags } from './primitives/TitleAndMetaTags';
 
